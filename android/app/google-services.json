@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "972606647872",
+    "project_id": "refreshing-cat-355711",
+    "storage_bucket": "refreshing-cat-355711.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:972606647872:android:312b83f6ac5835cf6679a5",
+        "android_client_info": {
+          "package_name": "com.example.ecommerceapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "972606647872-fgr7ldf61h1vkfmjrit7s2t3975n4lri.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ecommerceapp",
+            "certificate_hash": "c30eb32e59e82289873e7e098f4e09234f554db6"
+          }
+        },
+        {
+          "client_id": "972606647872-36r47a8fj3gjccanj6kto04kt6auft2o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDF3eVH9ORkejbytpuc9KbY4OuZOrBBXnA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "972606647872-36r47a8fj3gjccanj6kto04kt6auft2o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
