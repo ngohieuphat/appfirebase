@@ -1,20 +1,20 @@
+import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:ecommerceapp/widgets/fechprouduct.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/src/foundation/key.dart';
-import 'package:flutter/src/widgets/framework.dart';
 
 class Favourite extends StatefulWidget {
-  const Favourite({Key? key}) : super(key: key);
-
   @override
-  State<Favourite> createState() => _FavouriteState();
+  _FavouriteState createState() => _FavouriteState();
 }
 
 class _FavouriteState extends State<Favourite> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-            backgroundColor:  Colors.green,
-
+      body: SafeArea(
+        child: fetchData("users-favourite-items"),
+      ),
     );
   }
 }
